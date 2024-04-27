@@ -1,8 +1,8 @@
-# Project Name
+# gwangju.com
 
 ## Description
 
-[gwangju.com] is a web application for exploring hotels, restaurants, shopping centers, and places of interest in a gwangju. It provides users with an intuitive interface to browse through various categories. The project is built using React.js for the frontend.
+gwangju.com is a web application for exploring hotels, restaurants, shopping centers, and places of interest in a gwangju. It provides users with an intuitive interface to browse through various categories. The project is built using React.js for the frontend.
 
 ## Features
 
