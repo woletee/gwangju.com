@@ -1,0 +1,83 @@
+/* Hotelcard.css */
+.hotel-card {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hotel-details {
+  padding: 15px;
+}
+
+.hotel-name {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.hotel-rating,
+.hotel-reviews,
+.hotel-price {
+  margin: 5px 0;
+}
+
+.price-original {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.price-discounted {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.check-availability {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+/* ... existing styles ... */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px; /* Or any width you prefer */
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}
+
+/* ... any other styles you need ... */
+
+/* Add responsive design or other styles as needed */
