@@ -1,0 +1,54 @@
+/* NavigationTabs.css */
+.nav-container {
+  background-color: #007bff; /* Fixed blue background for all nav */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  color: #ffffff; /* White text color */
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.website-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  position: relative; /* Needed for absolute positioning of the underline */
+}
+
+.nav-button::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px; /* Adjust as necessary depending on padding and desired position */
+  left: 0;
+}
+
+.nav-button:hover::after,
+.nav-button.active::after {
+  width: 100%; /* Full width underline on hover and active */
+}
+
+/* ...rest of the styles */
