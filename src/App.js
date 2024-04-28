@@ -8,42 +8,34 @@ const App = () => {
 
   // Example data for hotels, make sure each hotel has a unique 'id'
   const hotels = [
-    {
-      id: 1,
-      name: "Hotel Sunshine",
-      rating: 4.5,
-      reviews: 150,
-      originalPrice: 120,
-      discountedPrice: 100,
-      imageUrl: "path/to/hotel/sunshine/image.jpg",
-    },
-    {
-      id: 2,
-      name: "Hotel Sunshine",
-      rating: 4.5,
-      reviews: 150,
-      originalPrice: 120,
-      discountedPrice: 100,
-      imageUrl: "path/to/hotel/sunshine/image.jpg",
-    },
-    {
-      id: 3,
-      name: "Hotel Sunshine",
-      rating: 4.5,
-      reviews: 150,
-      originalPrice: 120,
-      discountedPrice: 100,
-      imageUrl: "path/to/hotel/sunshine/image.jpg",
-    },
-    {
-      id: 4,
-      name: "Hotel Sunshine",
-      rating: 4.5,
-      reviews: 150,
-      originalPrice: 120,
-      discountedPrice: 100,
-      imageUrl: "path/to/hotel/sunshine/image.jpg",
-    },
+   const hotels = [
+  {
+    id: 1,
+    name: "Acc_design Hotel",
+    location: "226-11 Geumnam-ro, Gwangju, 61482, South Korea",
+    imageUrl: "/path/to/image.jpg",
+    description: "Smart hotel with amenities such as free Wi-Fi, air conditioning, and parking.",
+    rating: 4.2,
+    reviews: 150,
+    originalPrice: 100,
+    discountedPrice: 70
+  },
+  {
+    id: 2,
+    name: "CS Hotel",
+    location: "128 Sangmupyeonghwa-ro, Seo-gu, Gwangju, 61964, South Korea",
+    imageUrl: "/path/to/image2.jpg",
+    description: "Located near the Gwangju Statue of Peace, offering traditional dining options.",
+    rating: 4.5,
+    reviews: 200,
+    originalPrice: 120,
+    discountedPrice: 90
+  },
+  // Add more hotels as needed
+];
+
+export default hotels;
+
     // Additional hotels...
   ];
 
